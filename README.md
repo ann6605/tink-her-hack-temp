@@ -16,10 +16,10 @@
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+WaySure is a smart web platform that helps users choose safer travel routes, not just the fastest ones. It compares routes based on safety score, crowd density, time, and distance using factors like road type, lighting, and time of day, enabling informed and confident commuting decisions.
 
 ### The Problem statement
-[What problem are you solving?]
+
 
 ### The Solution
 [How are you solving it?]
