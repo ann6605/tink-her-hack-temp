@@ -9,8 +9,8 @@
 ### Team Name: [Name]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Ann Mary Joseph - Jyothi Engineering College
+- Member 2: Anjana P S- Jyothi Engineering College
 
 ### Hosted Project Link
 [mention your project hosted link here]
