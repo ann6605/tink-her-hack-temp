@@ -2,11 +2,11 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# WaySure 🛡️
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Tech Divas
 
 ### Team Members
 - Member 1: Ann Mary Joseph - Jyothi Engineering College
@@ -23,7 +23,15 @@ Current navigation systems optimize for speed, not safety.
 WaySure introduces a Safety Intelligence Layer on top of existing map services to make commuting smarter and safer.
 
 ### The Solution
+WaySure provides interactive route options with safety metrics, allowing users to select the safest route in addition to the fastest route. Routes can be compared based on:
 
+-Safety score (based on road type, lighting, and time)
+
+-Crowd density
+
+-Estimated travel time
+
+-Distance
 
 ## Technical Details
 
