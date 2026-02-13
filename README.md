@@ -8,21 +8,21 @@
 
 ### Team Name: Tech Divas
 
-### Team Members
+### Team Members:
 - Member 1: Ann Mary Joseph - Jyothi Engineering College
 - Member 2: Anjana P S- Jyothi Engineering College
 
-### Hosted Project Link
+### Hosted Project Link:
 [mention your project hosted link here]
 
-### Project Description
+### Project Description:
 WaySure is a smart web platform that helps users choose safer travel routes, not just the fastest ones. It compares routes based on safety score, crowd density, time, and distance using factors like road type, lighting, and time of day, enabling informed and confident commuting decisions.
 
-### The Problem statement
+### The Problem statement:
 Current navigation systems optimize for speed, not safety. 
 WaySure introduces a Safety Intelligence Layer on top of existing map services to make commuting smarter and safer.
 
-### The Solution
+### The Solution:
 WaySure provides interactive route options with safety metrics, allowing users to select the safest route in addition to the fastest route. Routes can be compared based on:
 
 -Safety score (based on road type, lighting, and time)
@@ -33,30 +33,28 @@ WaySure provides interactive route options with safety metrics, allowing users t
 
 -Distance
 
-## Technical Details
+## Technical Details:
 
-### Technologies/Components Used
+### Technologies/Components Used:
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: HTML, CSS, JavaScript, Python 
+- Frameworks used:Flask 
+- Libraries used:Google Maps Embedded API
+- Tools used: Notepad / Git / GitHub / Web Browser
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- None
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Display multiple routes between two points with safety and crowdedness metrics
+- Feature 2: Route selection based on user preference (safest, fastest, or balanced)
+- Feature 3: Interactive embedded Google Maps view for selected route
+- Feature 4: Dashboard showing real-time safety insights and crowd density
 
 ---
 
