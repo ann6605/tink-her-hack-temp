@@ -123,8 +123,7 @@ none
 
 **Application Workflow:**
 
-![Workflow](<img width="1116" height="538" alt="Screenshot 2026-02-14 074814" src="https://github.com/user-attachments/assets/c31798b7-a285-4e5f-8ee9-2e84461732c3" />
-)
+![Workflow](workflow.png)
 *The application workflow: Users enter their source and destination, the system computes the Safety Score and Crowd Density for available routes, displays interactive route cards, and allows users to select a preferred route while providing real-time navigation and integrated emergency support.*
 
 ---
