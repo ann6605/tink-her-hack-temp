@@ -54,7 +54,8 @@ List the key features of your project:
 - Feature 1: Display multiple routes between two points with safety and crowdedness metrics
 - Feature 2: Route selection based on user preference (safest, fastest, or balanced)
 - Feature 3: Interactive embedded Google Maps view for selected route
-- Feature 4: Dashboard showing real-time safety insights and crowd density
+- Feature 4: Dashboard showing safety insights and crowd density
+- Feature 5: Smart Panic Assistance Module with emergency alerts
 
 ---
 
@@ -101,12 +102,14 @@ List the key features of your project:
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram](<img width="987" height="807" alt="Screenshot 2026-02-14 075139" src="https://github.com/user-attachments/assets/6df2c4e1-2004-446b-9ca6-3da365b3f799" />
+)
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
+![Workflow](<img width="1116" height="538" alt="Screenshot 2026-02-14 074814" src="https://github.com/user-attachments/assets/c31798b7-a285-4e5f-8ee9-2e84461732c3" />
+)
 *Add caption explaining your workflow*
 
 ---
