@@ -96,16 +96,23 @@ none
 
 #### Screenshots (Add at least 3)
 
-1. Homepage Input Section
+1. Homepage Input Section:
 ![Homepage Input Section](home_page_input.png)  
 *This screenshot shows the source and destination input fields along with the "Show Routes" button and the red SOS panic button.*
 
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+2. Route Cards After Clicking Show Routes:
+![Route Cards Display](route_cards.png)  
+*After clicking "Show Routes", multiple route cards appear dynamically showing Safety Scores and Crowd Levels for each available route.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+
+3. Panic Button Modal:
+![Panic Button Modal](panic_button.png)  
+*Clicking the SOS panic button opens this emergency modal, allowing the user to choose nearby Police, Hospital, or Fire Station for alerting.*
+
+4. Feedback Submission
+![Feedback Submission](feedback.png)  
+*This screenshot shows a route card with the feedback section expanded, where users can select Safety Rating and Crowd Level and submit their feedback.*
 
 #### Diagrams
 
