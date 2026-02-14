@@ -175,44 +175,24 @@ none
 ### For Mobile Apps:
 
 #### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
+     none
 
 #### Installation Guide
 
 **For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
+    none
 
 **For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
+    none
 
 **Building from Source:**
 ```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
+none
 ```
 
 ---
 
-### For Hardware Projects:
+### For Hardware Projects:(none)
 
 #### Bill of Materials (BOM)
 
@@ -298,89 +278,165 @@ python script.py -c config.json --verbose input.txt
 
 #### Demo Output
 
-**Example 1: Basic Processing**
+**Example 1: Basic Route Search**
 
 **Input:**
 ```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
+Source: ernakulam
+Destination: chalakudy
+
 ```
 
 **Command:**
 ```bash
-python script.py sample.txt
+python app.py
 ```
 
 **Output:**
 ```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
+Route 1
+Safety Score: 8/10
+Crowd Level: Low
+
+Route 2
+Safety Score: 6/10
+Crowd Level: Medium
+
 ```
 
-**Example 2: Advanced Usage**
+**Example 2: Feedback submission**
 
 **Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
+
+User clicks “Give Feedback” on Route 1.
+
+Selects:
+
+Safety Rating: 9
+Crowd Level: Low
 ```
 
 **Command:**
 ```bash
-python script.py -v --format json data.json
+python app.py
 ```
 
 **Output:**
 ```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
+Feedback for Route 1 submitted successfully!
+Safety Rating: 9
+Crowd Level: Low
 ---
-
-## Project Demo
+```
+#### Project Demo
 
 ### Video
 
 [Waysure.mp4]
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+*1. Homepage & Input Section
 
-### Additional Demos
+Displays source and destination input fields.
+
+Provides a green “Show Routes” button to fetch available routes.
+
+Shows a red circular SOS panic button for emergencies.
+
+Users enter starting and ending locations to get route options.
+
+2. Show Routes Functionality
+
+When “Show Routes” is clicked:
+
+The system dynamically generates route cards in the routes section.
+
+Each card displays:
+
+Route Name
+
+Safety Score (1–10)
+
+Crowd Level (Low/Medium/High)
+
+Feedback section can be toggled for each card to submit:
+
+Safety Rating
+
+Crowd Feedback
+
+Clicking a route card opens Google Maps in a new window showing the selected route.
+
+3. Route Cards
+
+Routes are displayed only after clicking “Show Routes” — no duplicates.
+
+Each card has:
+
+Interactive feedback div hidden by default.
+
+A “Give Feedback” button to toggle the feedback form.
+
+Feedback submission sends data to backend using a POST request.
+
+4. Embedded Panic Button
+
+Clicking the SOS panic button opens a modal.
+
+Modal allows the user to select emergency type:
+
+Police Station
+
+Hospital
+
+Fire Station
+
+Clicking “Find Nearby”:
+
+Uses the browser’s geolocation to get user’s current location.
+
+Alerts the chosen emergency service (currently simulated with an alert showing a Google Maps link with the user’s location).
+
+5. Google Maps
+
+Instead of using an API key (to avoid limitations):
+
+Each route card opens Google Maps directions in a new tab/window with the selected source and destination.
+
+The embedded map section shows a placeholder message: “Click a route card to open it in Google Maps.”
+
+6. Styling (CSS)
+
+Modern, colorful, and interactive:
+
+Gradient route cards stacked vertically.
+
+Circular red SOS button for panic.
+
+Feedback dropdowns and buttons styled clearly for usability.
+
+Input fields and buttons have hover effects for interactivity.*
+
+### Additional Demos[none]
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
 ---
 
-## AI Tools Used (Optional - For Transparency Bonus)
+## AI Tools Used:
 
-If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** ChatGPT: Refined project abstract, drafted documentation, created captions, and structured content for competition submission.
+**Tool Used:** 
+
+ChatGPT: Refined project abstract, drafted documentation, created captions, and structured content for competition submission.
 Claude AI: Assisted in summarizing technical concepts, generating structured documentation, and reviewing content clarity.
 Napkin.ai: Designed architecture and application workflow diagrams for clear visualization.
 
-**Purpose:** [What you used it for]
+**Purpose:** 
+
 ChatGPT & Claude AI: Refined documentation, structured abstract, drafted captions, and summarized technical content for clarity.
 Napkin.ai: Created professional architecture and workflow diagrams to visualize system design and user journey.
 
 **Key Prompts Used:**
+
 Design a system architecture diagram showing data flow from user to Google Maps API
 Draft a concise workflow diagram for user journey from route selection to emergency alert
 Summarize technical project details into documentation
@@ -388,6 +444,7 @@ Summarize technical project details into documentation
 **Percentage of AI-generated code:** Approximately 15–20%
 
 **Human Contributions:**
+
 - Architecture design and planning
 - Custom business logic implementation
 - Integration and testing
@@ -400,6 +457,7 @@ Summarize technical project details into documentation
 ## Team Contributions
 
  Ann Mary Joseph: Backend development, Google Maps integration, UI/UX design, and route card visualization.
+ 
  Anjana P S: Frontend development,Panic Module implementation and integration.
 
 ---
