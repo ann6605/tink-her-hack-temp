@@ -104,13 +104,13 @@ List the key features of your project:
 
 ![Architecture Diagram](<img width="987" height="807" alt="Screenshot 2026-02-14 075139" src="https://github.com/user-attachments/assets/6df2c4e1-2004-446b-9ca6-3da365b3f799" />
 )
-*Explain your system architecture - components, data flow, tech stack interaction*
+*Web-based platform using Flask backend, SQLite database, and Google Maps API to compute and display safety metrics.*
 
 **Application Workflow:**
 
 ![Workflow](<img width="1116" height="538" alt="Screenshot 2026-02-14 074814" src="https://github.com/user-attachments/assets/c31798b7-a285-4e5f-8ee9-2e84461732c3" />
 )
-*Add caption explaining your workflow*
+*The application workflow: Users enter their source and destination, the system computes the Safety Score and Crowd Density for available routes, displays interactive route cards, and allows users to select a preferred route while providing real-time navigation and integrated emergency support.*
 
 ---
 
@@ -382,19 +382,20 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** ChatGPT: Refined project abstract, drafted documentation, created captions, and structured content for competition submission.
+Claude AI: Assisted in summarizing technical concepts, generating structured documentation, and reviewing content clarity.
+Napkin.ai: Designed architecture and application workflow diagrams for clear visualization.
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+ChatGPT & Claude AI: Refined documentation, structured abstract, drafted captions, and summarized technical content for clarity.
+Napkin.ai: Created professional architecture and workflow diagrams to visualize system design and user journey.
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+Design a system architecture diagram showing data flow from user to Google Maps API
+Draft a concise workflow diagram for user journey from route selection to emergency alert
+Summarize technical project details into documentation
 
-**Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:** Approximately 15–20%
 
 **Human Contributions:**
 - Architecture design and planning
@@ -408,9 +409,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+ Ann Mary Joseph: Backend development, Google Maps integration, UI/UX design, and route card visualization.
+ Anjana P S: Frontend development,Panic Module implementation and integration.
 
 ---
 
