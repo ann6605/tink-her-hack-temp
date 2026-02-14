@@ -369,7 +369,8 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+
+[Waysure.mp4]
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
