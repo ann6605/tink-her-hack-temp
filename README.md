@@ -118,8 +118,7 @@ none
 
 **System Architecture:**
 
-![Architecture Diagram](<img width="987" height="807" alt="Screenshot 2026-02-14 075139" src="https://github.com/user-attachments/assets/6df2c4e1-2004-446b-9ca6-3da365b3f799" />
-)
+![Architecture Diagram](diagram.png)
 *Web-based platform using Flask backend, SQLite database, and Google Maps API to compute and display safety metrics.*
 
 **Application Workflow:**
