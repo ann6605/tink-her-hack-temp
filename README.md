@@ -82,11 +82,11 @@ python3 app.py
 
 ### For Hardware:
 
-#### Components Required
-[List all components needed with specifications]
+#### Components Required:
+none
 
-#### Circuit Setup
-[Explain how to set up the circuit]
+#### Circuit Setup:
+none
 
 ---
 
