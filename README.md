@@ -96,8 +96,10 @@ none
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+1. Homepage Input Section
+![Homepage Input Section](screenshots/home_page_input.png)  
+*This screenshot shows the source and destination input fields along with the "Show Routes" button and the red SOS panic button.*
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
