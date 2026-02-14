@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaySure - Smart Route Safety</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>🛡️ WaySure</h1>
+        <p><strong>Where SAFETY Meets Every JOURNEY</strong></p>
+    </header>
+
+    <main>
+        <!-- Input Section -->
+        <section class="input-section">
+            <input type="text" id="source" placeholder="Enter source">
+            <input type="text" id="destination" placeholder="Enter destination">
+            
+            <!-- Green Show Routes button -->
+            <button id="showRoutes" class="green-btn">Show Routes</button>
+            
+            <!-- Red Panic Button -->
+            <button id="panicButton" class="panic">SOS</button>
+        </section>
+        
+        <!-- Panic Modal -->
+        <div id="panicModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>🚨 Emergency</h2>
+            <label for="emergencyType">Choose Emergency:</label>
+            <select id="emergencyType">
+              <option value="police">Police Station</option>
+              <option value="hospital">Hospital</option>
+              <option value="fire">Fire Station</option>
+            </select>
+            <br><br>
+            <button id="sendAlert" class="green-btn">Find Nearby</button>
+          </div>
+        </div>
+
+        <!-- Route Cards Container (Initially Empty) -->
+        <section class="routes-section" id="routesContainer">
+            <!-- Cards will appear here dynamically after Show Routes -->
+        </section>
+
+        <!-- Google Maps Section -->
+        <section class="map-section">
+            <p style="text-align:center; font-size:1.2rem; color:#555;">
+                Click a route card to open it in Google Maps.
+            </p>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
