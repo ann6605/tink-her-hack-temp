@@ -149,39 +149,28 @@ none
 
 ##### Endpoints
 
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
 **POST /api/endpoint**
 - **Description:** [What it does]
 - **Request Body:**
 ```json
+
 {
-  "field1": "value1",
-  "field2": "value2"
+  "route": "Route 1",
+  "safety": "8",
+  "crowd": "Low"
 }
+
 ```
 - **Response:**
 ```json
 {
   "status": "success",
-  "message": "Operation completed"
+  "message": "Feedback submitted successfully"
+}
+  "status": "success",
+  "data": {}
 }
 ```
-
-[Add more endpoints as needed...]
-
----
 
 ### For Mobile Apps:
 
