@@ -65,12 +65,19 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+# Python backend dependencies
+pip install -r requirements.txt
+
+# Flask (if used)
+pip install flask
+
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+# Run the Flask app
+python3 app.py
+
 ```
 
 ### For Hardware:
